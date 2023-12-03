@@ -1,8 +1,8 @@
 ---
-title: "Design Principles for {packagetemplate}"
+title: "Design Principles for the `{epiverse}` meta-package"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Design Principles for {packagetemplate}}
+  %\VignetteIndexEntry{Design Principles for the `{epiverse}` meta-package}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -14,31 +14,26 @@ knitr::opts_chunk$set(
 )
 ```
 
-This vignette outlines the design decisions that have been taken during the development of the `{packagetemplate}` R package, and provides some of the reasoning, and possible pros and cons of each decision.
+This vignette outlines the design decisions that have been taken during the development of the `{epiverse}` R meta-package, and provides some of the reasoning, and possible pros and cons of each decision.
 
 This document is primarily intended to be read by those interested in understanding the code within the package and for potential package contributors.
 
-<!-- Text in angular brackets (<>) is to guide what to include for each section please delete the guidelines and replace for your package.
+# Meta-package scope and structure
 
-None of the sections are required, feel free to remove any sections not relevant to your package or add new sections if helpful. -->
+This package is a meta-package that automatically loads in a single line all Epiverse-TRACE packages.
 
-## Scope
+## Structure
 
-< Outline the aims of the package, potentially mention some of the key exported functions, and maybe how it links with other R packages. It is also possible to mention certain aspects that fall outside of the package's scope. >
+There are many ways to structure a meta-package. The `{epiverse}` meta-package loads all Epiverse-TRACE packages by including them in the `DESCRIPTION` file under the `Depends` field. This means that all packages are attached when the `{epiverse}` package is loaded. This is the simplest way to structure a meta-package.
 
-## Input/Output/Interoperability
+However, it notably differs from how the `{tidyverse}` meta-package is structured. The `{tidyverse}` meta-package includes tidyverse packages in `Imports` and `Suggests` rather than `Depends`. This is due to their more complex inclusion policy, with core and non-core packages, which calls for a more complex meta-package structure. Additionally, the `{tidyverse}` is more than a simple wrapper or meta-package. [It also provides a couple of special functions](https://tidyverse.tidyverse.org/reference/index.html) to interact with the package universe as a whole.
 
-< Describe the data structures (i.e. vectors, `<data.frames>` or classes) that are given as input to the key functions and what data structures the functions return. The design decisions around these I/O choices could also mention how it enhances interoperability with other R packages or pipelines (e.g. with `%>%`). >
+## Inclusion policy
 
+At the moment, only core Epiverse-TRACE packages, i.e., packages hosted on the `epiverse-trace` GitHub organization, are included in the `{epiverse}` meta-package.
 
-## Design decisions
+The package provides two long-lived branches, or two installation channels, `main` and `dev`. The `main` branch only includes Epiverse-TRACE packages that have been released to CRAN while the `dev` branch includes Epiverse-TRACE packages that have been released on CRAN or GitHub.
 
-< A list of bullet points each explaining a design decision and its reasoning. >
+# Epiverse-TRACE design principles
 
-## Dependencies
-
-< A list of dependencies used by the package with some explanation as to why they are required. Not all dependencies need to be explained and it is best to explain the key dependencies. It can be used to give context to why certain dependencies are used (e.g. "This package is expected to be used in tidyverse pipelines and as such, we consider these tidyverse packages good dependencies that will already be installed on a user's computer."). This section can also mention dependencies that are planned to be removed or added in future development. Suggested dependencies do not need to be explained unless they are unusual and may surprise developers with their inclusion. >
-
-## Development journey
-
-<  If the package has undergone any large refactoring this section can be used to explain the changes. >
+The design principles for the project are detailed in the [blueprints](https://epiverse-trace.github.io/blueprints) and our [blog](https://epiverse-trace.github.io/) and the design principles for the individual packages wrapped here are detailed in their respective design principle vignettes.

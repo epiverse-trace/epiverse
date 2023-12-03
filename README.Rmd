@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
+# {{ packagename }} <img src="man/figures/logo.png" align="right" width="120" />
 
 <!-- badges: start -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
@@ -27,10 +27,7 @@ knitr::opts_chunk$set(
 [![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept) 
 <!-- badges: end -->
 
-{{ packagename }} provides functions to ....
-
-<!-- This sentence is optional and can be removed -->
-{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE program](https://data.org/initiatives/epiverse/).
+{{ packagename }} is a meta-package to provide easy access to all Epiverse-TRACE packages.
 
 ## Installation
 
@@ -41,11 +38,6 @@ You can install the development version of {{ packagename }} from
 # install.packages("pak")
 pak::pak("{{ gh_repo }}")
 ```
-
-## Example
-
-These examples illustrate some of the current functionalities
-
 
 ## Development
 

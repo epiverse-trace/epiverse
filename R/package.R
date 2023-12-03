@@ -4,5 +4,8 @@
 "_PACKAGE"
 
 ## usethis namespace: start
+#' @import cfr
+#' @import finalsize
+#' @import linelist
 ## usethis namespace: end
 NULL

@@ -29,6 +29,8 @@ knitr::opts_chunk$set(
 
 {{ packagename }} is a meta-package to provide easy access to all Epiverse-TRACE packages.
 
+If you are looking for information about the Epiverse-TRACE in general, please visit the [Epiverse-TRACE website](https://epiverse-trace.github.io/).
+
 ## Installation
 
 You can install the development version of {{ packagename }} from

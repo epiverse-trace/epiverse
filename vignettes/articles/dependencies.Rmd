@@ -1,0 +1,25 @@
+---
+title: "Package scaffolding in Epiverse-TRACE"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Package scaffolding in Epiverse-TRACE}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(deepdep)
+library(ggraph) # used in `deepdep::plot_dependencies()`
+```
+
+```{r}
+dd <- deepdep("epiverse", depth = 2, local = TRUE)
+plot_dependencies(dd, "circular", same_level = TRUE)
+```

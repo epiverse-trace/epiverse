@@ -1,0 +1,166 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.5.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "epiverse" in publications use:'
+type: software
+license: MIT
+title: 'epiverse: Meta-Package for the Epiverse-TRACE Project'
+version: 0.0.1
+abstract: 'Your package description. It must end with a period (".") and include relevant
+  bibliographical references if applicable, using the following format: Author et
+  al. (2023) <doi:10.5281/zenodo.6619350>.'
+authors:
+- family-names: Gruson
+  given-names: Hugo
+  email: hugo@data.org
+  orcid: https://orcid.org/0000-0002-4094-1476
+repository-code: https://github.com/epiverse-trace/epiverse
+url: https://epiverse-trace.github.io/epiverse
+contact:
+- family-names: Gruson
+  given-names: Hugo
+  email: hugo@data.org
+  orcid: https://orcid.org/0000-0002-4094-1476
+keywords:
+- epiverse
+- r
+- r-package
+references:
+- type: software
+  title: cfr
+  abstract: 'cfr: Estimate Disease Severity and Case Ascertainment'
+  notes: Depends
+  url: https://epiverse-trace.github.io/cfr/
+  repository: https://CRAN.R-project.org/package=cfr
+  authors:
+  - family-names: Gupte
+    given-names: Pratik R.
+    email: pratik.gupte@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5294-7819
+  - family-names: Kucharski
+    given-names: Adam
+    email: adam.kucharski@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-8814-9421
+  - family-names: Russell
+    given-names: Tim
+    email: timothy.russell@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5610-6080
+  year: '2023'
+- type: software
+  title: finalsize
+  abstract: 'finalsize: Calculate the Final Size of an Epidemic'
+  notes: Depends
+  url: https://epiverse-trace.github.io/finalsize/
+  repository: https://CRAN.R-project.org/package=finalsize
+  authors:
+  - family-names: Gupte
+    given-names: Pratik
+    email: pratik.gupte@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5294-7819
+  - family-names: Van Leeuwen
+    given-names: Edwin
+    email: edwin.vanleeuwen@ukhsa.gov.uk
+    orcid: https://orcid.org/0000-0002-2383-5305
+  - family-names: Kucharski
+    given-names: Adam
+    email: adam.kucharski@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-8814-9421
+  year: '2023'
+- type: software
+  title: linelist
+  abstract: 'linelist: Tagging and Validating Epidemiological Data'
+  notes: Depends
+  url: https://epiverse-trace.github.io/linelist/
+  repository: https://CRAN.R-project.org/package=linelist
+  authors:
+  - family-names: Gruson
+    given-names: Hugo
+    email: hugo@data.org
+  - family-names: Jombart
+    given-names: Thibaut
+  year: '2023'
+- type: software
+  title: knitr
+  abstract: 'knitr: A General-Purpose Package for Dynamic Report Generation in R'
+  notes: Suggests
+  url: https://yihui.org/knitr/
+  repository: https://CRAN.R-project.org/package=knitr
+  authors:
+  - family-names: Xie
+    given-names: Yihui
+    email: xie@yihui.name
+    orcid: https://orcid.org/0000-0003-0645-5666
+  year: '2023'
+- type: software
+  title: rmarkdown
+  abstract: 'rmarkdown: Dynamic Documents for R'
+  notes: Suggests
+  url: https://pkgs.rstudio.com/rmarkdown/
+  repository: https://CRAN.R-project.org/package=rmarkdown
+  authors:
+  - family-names: Allaire
+    given-names: JJ
+    email: jj@posit.co
+  - family-names: Xie
+    given-names: Yihui
+    email: xie@yihui.name
+    orcid: https://orcid.org/0000-0003-0645-5666
+  - family-names: Dervieux
+    given-names: Christophe
+    email: cderv@posit.co
+    orcid: https://orcid.org/0000-0003-4474-2498
+  - family-names: McPherson
+    given-names: Jonathan
+    email: jonathan@posit.co
+  - family-names: Luraschi
+    given-names: Javier
+  - family-names: Ushey
+    given-names: Kevin
+    email: kevin@posit.co
+  - family-names: Atkins
+    given-names: Aron
+    email: aron@posit.co
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  - family-names: Cheng
+    given-names: Joe
+    email: joe@posit.co
+  - family-names: Chang
+    given-names: Winston
+    email: winston@posit.co
+  - family-names: Iannone
+    given-names: Richard
+    email: rich@posit.co
+    orcid: https://orcid.org/0000-0003-3925-190X
+  year: '2023'
+- type: software
+  title: spelling
+  abstract: 'spelling: Tools for Spell Checking in R'
+  notes: Suggests
+  url: https://docs.ropensci.org/spelling/
+  repository: https://CRAN.R-project.org/package=spelling
+  authors:
+  - family-names: Ooms
+    given-names: Jeroen
+    email: jeroen@berkeley.edu
+    orcid: https://orcid.org/0000-0002-4035-0289
+  - family-names: Hester
+    given-names: Jim
+    email: james.hester@rstudio.com
+  year: '2023'
+- type: software
+  title: testthat
+  abstract: 'testthat: Unit Testing for R'
+  notes: Suggests
+  url: https://testthat.r-lib.org
+  repository: https://CRAN.R-project.org/package=testthat
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2023'
+  version: '>= 3.0.0'

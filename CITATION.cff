@@ -30,11 +30,32 @@ keywords:
 - r-package
 references:
 - type: software
+  title: bpmodels
+  abstract: 'bpmodels: Simulating and Analysing Transmission Chain Statistics using
+    Branching Process Models'
+  notes: Depends
+  url: https://epiverse-trace.github.io/bpmodels/
+  repository: https://epiverse-trace.r-universe.dev
+  authors:
+  - family-names: Azam
+    given-names: James M.
+    email: james.azam@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5782-7330
+  - family-names: Finger
+    given-names: Flavio
+    email: flavio.finger@epicentre.msf.org
+    orcid: https://orcid.org/0000-0002-8613-5170
+  - family-names: Funk
+    given-names: Sebastian
+    email: sebastian.funk@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0002-2842-3406
+  year: '2024'
+- type: software
   title: cfr
   abstract: 'cfr: Estimate Disease Severity and Case Ascertainment'
   notes: Depends
   url: https://epiverse-trace.github.io/cfr/
-  repository: https://CRAN.R-project.org/package=cfr
+  repository: https://epiverse-trace.r-universe.dev/
   authors:
   - family-names: Gupte
     given-names: Pratik R.
@@ -48,13 +69,13 @@ references:
     given-names: Tim
     email: timothy.russell@lshtm.ac.uk
     orcid: https://orcid.org/0000-0001-5610-6080
-  year: '2023'
+  year: '2024'
 - type: software
   title: finalsize
   abstract: 'finalsize: Calculate the Final Size of an Epidemic'
   notes: Depends
   url: https://epiverse-trace.github.io/finalsize/
-  repository: https://CRAN.R-project.org/package=finalsize
+  repository: https://epiverse-trace.r-universe.dev/
   authors:
   - family-names: Gupte
     given-names: Pratik
@@ -68,20 +89,73 @@ references:
     given-names: Adam
     email: adam.kucharski@lshtm.ac.uk
     orcid: https://orcid.org/0000-0001-8814-9421
-  year: '2023'
+  year: '2024'
 - type: software
   title: linelist
   abstract: 'linelist: Tagging and Validating Epidemiological Data'
   notes: Depends
   url: https://epiverse-trace.github.io/linelist/
-  repository: https://CRAN.R-project.org/package=linelist
+  repository: https://epiverse-trace.r-universe.dev/
   authors:
   - family-names: Gruson
     given-names: Hugo
     email: hugo@data.org
   - family-names: Jombart
     given-names: Thibaut
-  year: '2023'
+  year: '2024'
+- type: software
+  title: serofoi
+  abstract: 'serofoi: Estimates the Force-of-Infection of a given pathogen from population
+    based seroprevalence studies'
+  notes: Depends
+  url: https://trace-lac.github.io/serofoi/
+  repository: https://epiverse-trace.r-universe.dev
+  authors:
+  - family-names: Cucunubá
+    given-names: Zulma M.
+    email: zulma.cucunuba@javeriana.edu.co
+    orcid: https://orcid.org/0000-0002-8165-3198
+  - family-names: T. Domínguez
+    given-names: Nicolás
+    email: ex-ntorres@javeriana.edu.co
+    orcid: https://orcid.org/0009-0002-8484-1298
+  - family-names: Lambert
+    given-names: Ben
+  - family-names: Nouvellet
+    given-names: Pierre
+  year: '2024'
+- type: software
+  title: simulist
+  abstract: 'simulist: Tools to Simulate Line List and Contacts Data'
+  notes: Depends
+  url: https://epiverse-trace.github.io/simulist/
+  repository: https://epiverse-trace.r-universe.dev
+  authors:
+  - family-names: Lambert
+    given-names: Joshua W.
+    email: joshua.lambert@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5218-3046
+  - family-names: Tamayo
+    given-names: Carmen
+    email: carmen.tamayo-cuartero@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0003-4184-2864
+  year: '2024'
+- type: software
+  title: superspreading
+  abstract: 'superspreading: Estimate Individual-Level Variation in Transmission'
+  notes: Depends
+  url: https://epiverse-trace.github.io/superspreading/
+  repository: https://epiverse-trace.r-universe.dev
+  authors:
+  - family-names: Lambert
+    given-names: Joshua W.
+    email: joshua.lambert@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5218-3046
+  - family-names: Kucharski
+    given-names: Adam
+    email: adam.kucharski@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-8814-9421
+  year: '2024'
 - type: software
   title: knitr
   abstract: 'knitr: A General-Purpose Package for Dynamic Report Generation in R'
@@ -93,7 +167,7 @@ references:
     given-names: Yihui
     email: xie@yihui.name
     orcid: https://orcid.org/0000-0003-0645-5666
-  year: '2023'
+  year: '2024'
 - type: software
   title: rmarkdown
   abstract: 'rmarkdown: Dynamic Documents for R'
@@ -136,7 +210,7 @@ references:
     given-names: Richard
     email: rich@posit.co
     orcid: https://orcid.org/0000-0003-3925-190X
-  year: '2023'
+  year: '2024'
 - type: software
   title: spelling
   abstract: 'spelling: Tools for Spell Checking in R'
@@ -151,7 +225,10 @@ references:
   - family-names: Hester
     given-names: Jim
     email: james.hester@rstudio.com
-  year: '2023'
+  year: '2024'
+  identifiers:
+  - type: url
+    value: https://github.com/ropensci/spelling
 - type: software
   title: testthat
   abstract: 'testthat: Unit Testing for R'
@@ -162,5 +239,5 @@ references:
   - family-names: Wickham
     given-names: Hadley
     email: hadley@posit.co
-  year: '2023'
+  year: '2024'
   version: '>= 3.0.0'

@@ -6,7 +6,18 @@
 \alias{epiverse-package}
 \title{epiverse: Meta-Package for the Epiverse-TRACE Project}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Your package description. It must end with a period (".") and include relevant bibliographical references if applicable, using the following format: Author et al. (2023) \doi{10.5281/zenodo.6619350}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/epiverse-trace/epiverse}
+  \item \url{https://epiverse-trace.github.io/epiverse}
+  \item Report bugs at \url{https://github.com/epiverse-trace/epiverse/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Hugo Gruson \email{hugo@data.org} (\href{https://orcid.org/0000-0002-4094-1476}{ORCID})

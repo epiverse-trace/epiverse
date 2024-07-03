@@ -76,6 +76,26 @@ references:
     orcid: https://orcid.org/0000-0001-8788-2496
   year: '2024'
 - type: software
+  title: epiCo
+  abstract: 'epiCo: Statistical and Viz Tools for Vector-Borne Diseases in Colombia'
+  notes: Depends
+  url: https://epiverse-trace.github.io/epiCo/
+  repository: https://CRAN.R-project.org/package=epiCo
+  authors:
+  - family-names: Umaña
+    given-names: Juan D.
+    email: jd.umana10@uniandes.edu.co
+    orcid: https://orcid.org/0000-0003-0316-6164
+  - family-names: Montenegro-Torres
+    given-names: Juan
+    email: jf.montenegro@uniandes.edu.co
+    orcid: https://orcid.org/0000-0003-2755-4743
+  - family-names: Otero
+    given-names: Julian
+    email: jd.otero10@uniandes.edu.co
+    orcid: https://orcid.org/0009-0006-0429-7747
+  year: '2024'
+- type: software
   title: finalsize
   abstract: 'finalsize: Calculate the Final Size of an Epidemic'
   notes: Depends

@@ -6,6 +6,7 @@
 ## usethis namespace: start
 #' @import cfr
 #' @import cleanepi
+#' @import epiCo
 #' @import finalsize
 #' @import linelist
 ## usethis namespace: end

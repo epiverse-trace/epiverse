@@ -6,7 +6,9 @@
 ## usethis namespace: start
 #' @import cfr
 #' @import cleanepi
+#' @import ColOpenData
 #' @import epiCo
+#' @import epichains
 #' @import finalsize
 #' @import linelist
 ## usethis namespace: end

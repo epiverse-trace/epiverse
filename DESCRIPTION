@@ -14,7 +14,9 @@ BugReports: https://github.com/epiverse-trace/epiverse/issues
 Depends:
     cfr,
     cleanepi,
+    ColOpenData,
     epiCo,
+    epichains,
     finalsize,
     linelist
 Suggests:

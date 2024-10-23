@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   articles/dependencies: dependencies.html
   design-principles: design-principles.html
-last_built: 2024-10-23T12:40Z
+last_built: 2024-10-23T12:44Z
 urls:
   reference: https://epiverse-trace.github.io/epiverse/reference
   article: https://epiverse-trace.github.io/epiverse/articles

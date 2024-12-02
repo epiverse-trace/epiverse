@@ -18,7 +18,9 @@ Depends:
     epiCo,
     epichains,
     finalsize,
-    linelist
+    linelist,
+    sivirep,
+    vaccineff
 Suggests:
     knitr,
     rmarkdown,

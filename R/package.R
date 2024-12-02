@@ -11,5 +11,7 @@
 #' @import epichains
 #' @import finalsize
 #' @import linelist
+#' @import sivirep
+#' @import vaccineff
 ## usethis namespace: end
 NULL

@@ -17,9 +17,12 @@ Depends:
     ColOpenData,
     epiCo,
     epichains,
+    epiparameter,
     finalsize,
     linelist,
+    simulist,
     sivirep,
+    superspreading,
     vaccineff
 Suggests:
     knitr,

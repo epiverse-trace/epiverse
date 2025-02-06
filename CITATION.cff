@@ -48,7 +48,8 @@ references:
     given-names: Tim
     email: timothy.russell@lshtm.ac.uk
     orcid: https://orcid.org/0000-0001-5610-6080
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.cfr
 - type: software
   title: cleanepi
   abstract: 'cleanepi: Clean and Standardize Epidemiological Data'
@@ -74,7 +75,90 @@ references:
     given-names: Abdoelnaser
     email: abdoelnaser-mahmood.degoot@lshtm.ac.uk
     orcid: https://orcid.org/0000-0001-8788-2496
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.cleanepi
+- type: software
+  title: ColOpenData
+  abstract: 'ColOpenData: Download Colombian Demographic, Climate and Geospatial Data'
+  notes: Depends
+  url: https://epiverse-trace.github.io/ColOpenData/
+  repository: https://CRAN.R-project.org/package=ColOpenData
+  authors:
+  - family-names: Tavera-Cifuentes
+    given-names: Maria Camila
+    email: mc.tavera@uniandes.edu.co
+    orcid: https://orcid.org/0009-0007-1610-4583
+  - family-names: Otero
+    given-names: Julian
+    email: jd.otero10@uniandes.edu.co
+    orcid: https://orcid.org/0009-0006-0429-7747
+  year: '2025'
+  doi: 10.32614/CRAN.package.ColOpenData
+- type: software
+  title: epiCo
+  abstract: 'epiCo: Statistical and Viz Tools for Vector-Borne Diseases in Colombia'
+  notes: Depends
+  url: https://epiverse-trace.github.io/epiCo/
+  repository: https://CRAN.R-project.org/package=epiCo
+  authors:
+  - family-names: Umaña
+    given-names: Juan D.
+    email: jd.umana10@uniandes.edu.co
+    orcid: https://orcid.org/0000-0003-0316-6164
+  - family-names: Montenegro-Torres
+    given-names: Juan
+    email: jf.montenegro@uniandes.edu.co
+    orcid: https://orcid.org/0000-0003-2755-4743
+  - family-names: Otero
+    given-names: Julian
+    email: jd.otero10@uniandes.edu.co
+    orcid: https://orcid.org/0009-0006-0429-7747
+  year: '2025'
+  doi: 10.32614/CRAN.package.epiCo
+- type: software
+  title: epichains
+  abstract: 'epichains: Simulating and Analysing Transmission Chain Statistics Using
+    Branching Process Models'
+  notes: Depends
+  url: https://epiverse-trace.github.io/epichains/
+  repository: https://CRAN.R-project.org/package=epichains
+  authors:
+  - family-names: Azam
+    given-names: James M.
+    email: james.azam@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5782-7330
+  - family-names: Funk
+    given-names: Sebastian
+    email: sebastian.funk@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0002-2842-3406
+  - family-names: Finger
+    given-names: Flavio
+    email: flavio.finger@epicentre.msf.org
+    orcid: https://orcid.org/0000-0002-8613-5170
+  year: '2025'
+  doi: 10.32614/CRAN.package.epichains
+- type: software
+  title: epiparameter
+  abstract: 'epiparameter: Classes and Helper Functions for Working with Epidemiological
+    Parameters'
+  notes: Depends
+  url: https://github.com/epiverse-trace/epiparameter/
+  repository: https://CRAN.R-project.org/package=epiparameter
+  authors:
+  - family-names: Lambert
+    given-names: Joshua W.
+    email: joshua.lambert@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5218-3046
+  - family-names: Kucharski
+    given-names: Adam
+    email: adam.kucharski@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-8814-9421
+  - family-names: Tamayo
+    given-names: Carmen
+    email: carmen.tamayo-cuartero@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0003-4184-2864
+  year: '2025'
+  doi: 10.32614/CRAN.package.epiparameter
 - type: software
   title: finalsize
   abstract: 'finalsize: Calculate the Final Size of an Epidemic'
@@ -94,7 +178,8 @@ references:
     given-names: Adam
     email: adam.kucharski@lshtm.ac.uk
     orcid: https://orcid.org/0000-0001-8814-9421
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.finalsize
 - type: software
   title: linelist
   abstract: 'linelist: Tagging and Validating Epidemiological Data'
@@ -108,7 +193,89 @@ references:
     orcid: https://orcid.org/0000-0002-4094-1476
   - family-names: Jombart
     given-names: Thibaut
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.linelist
+- type: software
+  title: simulist
+  abstract: 'simulist: Simulate Disease Outbreak Line List and Contacts Data'
+  notes: Depends
+  url: https://epiverse-trace.github.io/simulist/
+  repository: https://CRAN.R-project.org/package=simulist
+  authors:
+  - family-names: Lambert
+    given-names: Joshua W.
+    email: joshua.lambert@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5218-3046
+  - family-names: Tamayo
+    given-names: Carmen
+    email: carmen.tamayo-cuartero@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0003-4184-2864
+  year: '2025'
+  doi: 10.32614/CRAN.package.simulist
+- type: software
+  title: sivirep
+  abstract: 'sivirep: Data Wrangling and Automated Reports from ''SIVIGILA'' Source'
+  notes: Depends
+  url: https://epiverse-trace.github.io/sivirep/
+  repository: https://CRAN.R-project.org/package=sivirep
+  authors:
+  - family-names: Gómez-Millán
+    given-names: Geraldine
+    email: geralidine.gomez@javeriana.edu.co
+    orcid: https://orcid.org/0009-0007-8701-0568
+  - family-names: Cucunubá
+    given-names: Zulma M.
+    email: zulma.cucunuba@javeriana.edu.co
+    orcid: https://orcid.org/0000-0002-8165-3198
+  - family-names: Mendez-Romero
+    given-names: Jennifer A.
+    email: jenniferk2@hotmail.com
+    orcid: https://orcid.org/0009-0001-6138-0225
+  - family-names: Huguett-Aragón
+    given-names: Claudia
+    email: chuguett@hotmail.com
+    orcid: https://orcid.org/0000-0002-9814-2386
+  year: '2025'
+  doi: 10.32614/CRAN.package.sivirep
+- type: software
+  title: superspreading
+  abstract: 'superspreading: Understand Individual-Level Variation in Infectious Disease
+    Transmission'
+  notes: Depends
+  url: https://epiverse-trace.github.io/superspreading/
+  repository: https://CRAN.R-project.org/package=superspreading
+  authors:
+  - family-names: Lambert
+    given-names: Joshua W.
+    email: joshua.lambert@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-5218-3046
+  - family-names: Kucharski
+    given-names: Adam
+    email: adam.kucharski@lshtm.ac.uk
+    orcid: https://orcid.org/0000-0001-8814-9421
+  - family-names: Adam
+    given-names: Dillon C.
+    email: dcadam@hku.hk
+    orcid: https://orcid.org/0000-0002-7485-9905
+  year: '2025'
+  doi: 10.32614/CRAN.package.superspreading
+- type: software
+  title: vaccineff
+  abstract: 'vaccineff: Estimate Vaccine Effectiveness Based on Different Study Designs'
+  notes: Depends
+  url: https://epiverse-trace.github.io/vaccineff/
+  repository: https://CRAN.R-project.org/package=vaccineff
+  authors:
+  - family-names: Quevedo
+    given-names: David Santiago
+    email: ex-dsquevedo@javeriana.edu.co
+    orcid: https://orcid.org/0000-0003-1583-4262
+  - family-names: Cucunubá
+    given-names: Zulma M.
+    email: tracelacdev@gmail.com
+    orcid: https://orcid.org/0000-0002-8165-3198
+  year: '2025'
+  doi: 10.32614/CRAN.package.vaccineff
 - type: software
   title: knitr
   abstract: 'knitr: A General-Purpose Package for Dynamic Report Generation in R'
@@ -120,7 +287,8 @@ references:
     given-names: Yihui
     email: xie@yihui.name
     orcid: https://orcid.org/0000-0003-0645-5666
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.knitr
 - type: software
   title: rmarkdown
   abstract: 'rmarkdown: Dynamic Documents for R'
@@ -163,7 +331,8 @@ references:
     given-names: Richard
     email: rich@posit.co
     orcid: https://orcid.org/0000-0003-3925-190X
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.rmarkdown
 - type: software
   title: spelling
   abstract: 'spelling: Tools for Spell Checking in R'
@@ -173,12 +342,13 @@ references:
   authors:
   - family-names: Ooms
     given-names: Jeroen
-    email: jeroen@berkeley.edu
+    email: jeroenooms@gmail.com
     orcid: https://orcid.org/0000-0002-4035-0289
   - family-names: Hester
     given-names: Jim
     email: james.hester@rstudio.com
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.spelling
 - type: software
   title: testthat
   abstract: 'testthat: Unit Testing for R'
@@ -189,6 +359,7 @@ references:
   - family-names: Wickham
     given-names: Hadley
     email: hadley@posit.co
-  year: '2024'
+  year: '2025'
+  doi: 10.32614/CRAN.package.testthat
   version: '>= 3.0.0'
 

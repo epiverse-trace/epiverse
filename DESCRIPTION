@@ -30,7 +30,8 @@ Suggests:
     spelling,
     testthat (>= 3.0.0)
 Remotes:
-    epiverse-trace/simulist
+    epiverse-trace/simulist,
+    epiverse-trace/cleanepi
 VignetteBuilder: 
     knitr
 Config/Needs/website:

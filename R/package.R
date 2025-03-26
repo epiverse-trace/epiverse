@@ -9,9 +9,12 @@
 #' @import ColOpenData
 #' @import epiCo
 #' @import epichains
+#' @import epiparameter
 #' @import finalsize
 #' @import linelist
+#' @import simulist
 #' @import sivirep
+#' @import superspreading
 #' @import vaccineff
 ## usethis namespace: end
 NULL

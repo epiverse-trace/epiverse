@@ -1,12 +1,13 @@
 Package: epiverse
 Title: Meta-Package for the Epiverse-TRACE Project
 Version: 0.0.1
-Authors@R: 
+Authors@R:
     person("Hugo", "Gruson", , "hugo@data.org", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4094-1476"))
-Description: Your package description. It must end with a period (".") and
-    include relevant bibliographical references if applicable, using the
-    following format: Author et al. (2023) <doi:10.5281/zenodo.6619350>.
+Description: A meta-package to provide easy access to all 'Epiverse-TRACE'
+    packages released on CRAN. From a technical perspective, it is also where
+    integration tests across packages are hosted, and where dependency
+    scaffolding at the level of this ecosystem is investigated.
 License: MIT + file LICENSE
 URL: https://github.com/epiverse-trace/epiverse,
     https://epiverse-trace.github.io/epiverse
@@ -29,7 +30,7 @@ Suggests:
     rmarkdown,
     spelling,
     testthat (>= 3.0.0)
-VignetteBuilder: 
+VignetteBuilder:
     knitr
 Config/Needs/website:
     deepdep,

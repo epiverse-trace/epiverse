@@ -68,9 +68,6 @@ test_that("find_duplicates corrects prop_duplicate_row", {
   expect_identical(names(report), c("duplicated_rows", "duplicates_checked_from", "removed_duplicates"))
 
 
-  # remove appended column in cleaning
-  clean_ll$row_id <- NULL
-
   # remove report to check identical line list <data.frame>
   attr(clean_ll, "report") <- NULL
 

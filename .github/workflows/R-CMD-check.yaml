@@ -7,6 +7,8 @@
 # rcmdcheck::rcmdcheck()
 # ```
 on:
+  schedule:
+    - cron: 15 12 * * 1
   push:
     branches: [main, master]
     paths:

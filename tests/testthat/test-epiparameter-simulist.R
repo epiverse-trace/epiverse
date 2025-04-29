@@ -30,8 +30,10 @@ test_that("sim_linelist works with <epiparameter> contact distribution", {
     )
   )
 
-  ll <- simulist::sim_linelist(
-    contact_distribution = contact_distribution
+  expect_no_condition(
+    ll <- simulist::sim_linelist(
+      contact_distribution = contact_distribution
+    )
   )
 
   # not using snapshot regression testing until {simulist} v1.0.0
@@ -56,8 +58,10 @@ test_that("sim_contacts works with <epiparameter> contact distribution", {
     )
   )
 
-  contacts <- simulist::sim_contacts(
-    contact_distribution = contact_distribution
+  expect_no_condition(
+    contacts <- simulist::sim_contacts(
+      contact_distribution = contact_distribution
+    )
   )
 
   # not using snapshot regression testing until {simulist} v1.0.0
@@ -82,8 +86,10 @@ test_that("sim_linelist works with <epiparameter> onset-to-hospitalisation", {
     )
   )
 
-  ll <- simulist::sim_linelist(
-    onset_to_hosp = onset_to_hosp
+  expect_no_condition(
+    ll <- simulist::sim_linelist(
+      onset_to_hosp = onset_to_hosp
+    )
   )
 
   # not using snapshot regression testing until {simulist} v1.0.0

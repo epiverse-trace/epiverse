@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Your package description. It must end with a period (".") and include relevant bibliographical references if applicable, using the following format: Author et al. (2023) \doi{10.5281/zenodo.6619350}.
+A meta-package to provide easy access to all 'Epiverse-TRACE' packages released on CRAN. From a technical perspective, it is also where integration tests across packages are hosted, and where dependency scaffolding at the level of this ecosystem is investigated.
 }
 \seealso{
 Useful links:

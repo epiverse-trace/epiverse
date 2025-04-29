@@ -67,7 +67,7 @@ test_that("sim_contacts works with <epiparameter> contact distribution", {
   # not using snapshot regression testing until {simulist} v1.0.0
   # due to output breaking changes
   expect_s3_class(contacts, class = "data.frame")
-  expect_identical(dim(contacts), c(158L, 8L))
+  expect_identical(dim(contacts), c(80L, 8L))
   expect_identical(colnames(contacts), contacts_colnames)
   expect_identical(
     vapply(contacts, FUN = class, FUN.VALUE = character(1), USE.NAMES = FALSE),
@@ -95,7 +95,7 @@ test_that("sim_linelist works with <epiparameter> onset-to-hospitalisation", {
   # not using snapshot regression testing until {simulist} v1.0.0
   # due to output breaking changes
   expect_s3_class(ll, class = "data.frame")
-  expect_identical(dim(ll), c(176L, 13L))
+  expect_identical(dim(ll), c(159L, 13L))
   expect_identical(colnames(ll), ll_colnames)
   expect_identical(
     vapply(ll, FUN = class, FUN.VALUE = character(1), USE.NAMES = FALSE),

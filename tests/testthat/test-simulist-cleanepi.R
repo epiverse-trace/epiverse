@@ -60,12 +60,20 @@ test_that("find_duplicates corrects prop_duplicate_row", {
 
   # check report is created as expected
   report <- attr(clean_ll, "report")
-  expect_identical(names(report), c("duplicated_rows", "duplicates_checked_from"))
+  expect_identical(names(report), "found_duplicates")
+  expect_identical(
+    names(report$found_duplicates),
+    c("duplicated_rows", "duplicates_checked_from")
+  )
 
   clean_ll <- cleanepi::remove_duplicates(data = messy_ll)
 
   report <- attr(clean_ll, "report")
-  expect_identical(names(report), c("duplicated_rows", "duplicates_checked_from", "removed_duplicates"))
+  expect_identical(names(report), c("found_duplicates", "removed_duplicates"))
+  expect_identical(
+    names(report$found_duplicates),
+    c("duplicated_rows", "duplicates_checked_from")
+  )
 
 
   # remove report to check identical line list <data.frame>

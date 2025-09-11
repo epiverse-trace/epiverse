@@ -12,7 +12,7 @@ contacts_colnames <- c(
   "was_case", "status"
 )
 contacts_col_class <- c(
-  "character", "character", "integer", "character", "Date", "Date", "character",
+  "character", "character", "integer", "character", "Date", "Date", "logical",
   "character"
 )
 

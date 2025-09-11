@@ -30,8 +30,6 @@ Suggests:
     rmarkdown,
     spelling,
     testthat (>= 3.0.0)
-Remotes:
-    epiverse-trace/simulist
 VignetteBuilder: 
     knitr
 Config/Needs/website:
